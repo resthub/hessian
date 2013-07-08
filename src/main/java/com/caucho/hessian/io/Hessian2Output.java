@@ -85,13 +85,13 @@ public class Hessian2Output
 
   // map of references
   private final IdentityIntMap _refs
-    = new IdentityIntMap(4096);
+    = new IdentityIntMap(256);
 
   private boolean _isCloseStreamOnClose;
 
   // map of classes
   private final IdentityIntMap _classRefs
-    = new IdentityIntMap(4096);
+    = new IdentityIntMap(256);
 
   // map of types
   private HashMap<String,Integer> _typeRefs;

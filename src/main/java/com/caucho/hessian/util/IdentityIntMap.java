@@ -198,6 +198,9 @@ public class IdentityIntMap {
 
       if (key != null) {
         put(key, values[i], true);
+        if(values[i] == -1){
+            _size--;
+        }
       }
     }
   }
