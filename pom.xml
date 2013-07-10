@@ -12,7 +12,7 @@
   <groupId>org.resthub</groupId>
   <artifactId>hessian</artifactId>
   <packaging>jar</packaging>
-  <version>4.0.8</version>
+  <version>4.0.8-SNAPSHOT</version>
   <name>Hessian</name>
 
   <description>A community-maintained version of Hessian 4.0.7, toward a bug free library.</description>
@@ -27,6 +27,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+    <scm>
+      <connection>scm:git:git@github.com:resthub/hessian.git</connection>
+      <developerConnection>scm:git:git@github.com:resthub/hessian.git</developerConnection>
+      <url>scm:git:git@github.com:resthub/hessian.git</url>
+    </scm>
   
   <dependencies>
     <dependency>
